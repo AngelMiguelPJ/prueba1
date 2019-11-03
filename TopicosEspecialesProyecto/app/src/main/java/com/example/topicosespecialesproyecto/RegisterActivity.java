@@ -65,7 +65,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
         if (v == btnRegis){
             SaveRegister sv = new SaveRegister();
-            sv.setUserId(UUID.randomUUID().toString());
+            sv.setUserId(username);
             sv.setEmail(email);
             sv.setUserName(username);
             sv.setPassword(password);

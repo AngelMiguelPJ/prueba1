@@ -43,7 +43,7 @@
             android:id="@+id/edittext1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Correo Elecronico" />
+            android:hint="Usuario" />
     </com.google.android.material.textfield.TextInputLayout>
 
     // segundo cajon con texto password
