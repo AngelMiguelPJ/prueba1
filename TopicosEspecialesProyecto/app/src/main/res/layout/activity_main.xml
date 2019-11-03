@@ -46,7 +46,7 @@
             android:hint="Correo Elecronico" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    // segundo cajon con texto
+    // segundo cajon con texto password
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textlayout2"
         android:layout_width="match_parent"
@@ -58,10 +58,13 @@
             android:id="@+id/edittext2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
             android:hint="Contraseña" />
     </com.google.android.material.textfield.TextInputLayout>
 
     //Button de iniciar sesion
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
@@ -69,11 +72,13 @@
         android:layout_below="@id/textlayout2"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
         android:layout_marginTop="@android:dimen/app_icon_size"
-        android:text="Button" />
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/btn1"
+        android:text="Iniciar sesión" />
 
     //Button para ir al registro
+
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
@@ -82,10 +87,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
-        android:text="Button" />
-
-
-
+        android:backgroundTint="@color/btn2"
+        android:text="Registro" />
 
 
 

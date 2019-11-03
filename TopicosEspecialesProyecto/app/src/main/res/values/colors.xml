@@ -6,4 +6,8 @@
 
     // fonde pantalla
     <color name="bg">#1488CC</color>
+
+    // colores de botones
+    <color name="btn1">#04E10D</color>
+    <color name="btn2">#6829BB</color>
 </resources>
